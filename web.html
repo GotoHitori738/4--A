@@ -1,0 +1,78 @@
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+                </head>
+                <body>
+                <h1>旅のプラン紹介</h1>
+                <p1>このページでは、人気の旅行プランとお申込みフォームを紹介します。</p1>
+                <h1>料金表</h1>
+                <style>
+                    table,
+                    td,
+                    th {
+                        border: 1px solid black;
+                    }
+            </style>
+            </head>
+                <body>
+                    <table>
+                        <tr>
+                            <td>プラン名</td>
+                            <td>日数</td>
+                            <td>料金表</td>
+                        </tr>
+                        <tr>
+                            <td>北海道満喫ツアー</td>
+                            <td>３日間</td>
+                            <td>55000円</td>
+                        </tr>
+                        <tr>
+                            <td>沖縄リゾート</td>
+                            <td>4日間</td>
+                            <td>68000円</td>
+                        </tr>
+                    </table>
+                    <h1>プラン内容</h1>
+                    <dl>
+        <dt>宿泊</dt>
+        <dd>携帯ホテルまたは温泉旅館</dd>
+        <dt>食事</dt>
+        <dd>朝食・夕食付き</dd>
+        <h1>お問い合わせフォーム</h1>
+        <form action="#" method="get">
+    <p>
+        <label>名前：<input type="text" name="name" /></label>
+    </p>
+    <p>
+        <label>メールアドレス：<input type="email" name="email" /></label>
+    </p>
+    
+    </form>
+    <p>
+    <label
+        >希望プラン：
+        <select name="grade">
+        <option value="1">北海道満喫ツアー</option>
+        <option value="2">沖縄リゾート</option>
+        </select>
+    </label>
+    </p>
+    <label for="departure">出発希望日</label>
+<input type="date" id="departure" name="departure">
+    <p>
+    <label
+        >ご要望：
+        <textarea name="message" rows="4" cols="40"></textarea>
+    </label>
+    </p>
+    <p>
+        <label> <input type="checkbox" name="agree" /> 利用規約に同意する </label>
+    </p>
+    <p>
+        <input type="submit" value="送信" />
+    </p>
+                </body>
+                </html>

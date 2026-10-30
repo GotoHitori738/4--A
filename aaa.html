@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ロクデナシ</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            width: 100%;
+            max-width: 900px;
+            font-size: 24px;
+            border-bottom: 1px solid #0dadb5;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        .character-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            width: 220px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .job {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .stat-label {
+            color: #aaa;
+            font-size: 16px;
+        }
+
+        .stat-value {
+            font-weight: bold;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ロクデナシ</h1>
+
+    <div class="character-container">
+        <div class="card">
+            <div class="job">曲名</div>
+            <div class="name">ただ声一つ</div>
+            <div class="stat-row">
+                <span class="stat-label">key</span>
+                <span class="stat-value">E♭ major</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">作者</span>
+                <span class="stat-value">MIMI</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="job">曲名</div>
+            <div class="name">スピカ</div>
+            <div class="stat-row">
+                <span class="stat-label">Key</span>
+                <span class="stat-value">G</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">作者</span>
+                <span class="stat-value">ナユタン星人</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="job">曲名</div>
+            <div class="name">アルビレオ</div>
+            <div class="stat-row">
+                <span class="stat-label">key</span>
+                <span class="stat-value">G</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">作者</span>
+                <span class="stat-value">ナユタン星人</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
